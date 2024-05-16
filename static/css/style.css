@@ -20,3 +20,37 @@
 .create-btn {
     width: 100%;
 }
+
+.message-box {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid; 
+    border-radius: 10px;
+    background-image: url('https://cdn.photoroom.com/v1/assets-cached.jpg?path=backgrounds_v3/white/Photoroom_white_background_extremely_fine_texture_only_white_co_c6875276-cb6b-4903-bc2d-31b502c213e7.jpg');
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    align-items: stretch;
+}
+
+.messages {
+    overflow-y: scroll;
+    flex: 1;
+    width: 100%;
+}
+
+.inputs {
+    padding: 10px;
+    display: flex;
+    background-color: wheat;
+}
+
+h2 {
+    text-align: center;
+    background-color: white;
+}
+
+#message {
+    flex: 1;
+}
